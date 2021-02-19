@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:500italic&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Anton:regular&display=swap");
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-SemiBold.woff2') format('woff2'),
+	     url('../fonts/Gilroy-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;	  
+}
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-LightItalic.woff2') format('woff2'),
+	     url('../fonts/Gilroy-LightItalic.woff') format('woff');
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;	  
+}
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+	     url('../fonts/Gilroy-Rrgular.woff') format('woff');
+		  font-weight: normal;
+		  font-style: normal;
+		  font-display: swap;
+}
+
+
+
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+  
+body {
+ color: black;
+ line-height: 2;
+ font-family: 'Roboto', sans-serif;
+}
+
+.text {
+ color: indigo;
+}
+
+.link {
+ text-transform: uppercase;
+ color: goldenrod;
+ text-shadow: 2px 1px 5px green;
+}
+.title {
+ font-family: 'Anton', sans-serif;
+ font-weight: 700;
+ font-size: 104px;
+ color: red;
+ line-height: 100%;
+ text-align: center;
+ text-shadow: 1px 4px 5px #000;
+}
+.title span {
+	color: brown;
+}
+.subtitle {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 600;
+	font-size: 30px; ;
+   color:blue;
+	text-shadow: -1px 1px 1px black;
+}
+.block {
+	font-family: Gilroy;
+	font-weight: 600;
+}
+.block span {
+	color: gold;
+}
+.main { 
+	font-family: Gilroy;
+	font-weight: 300;
+	font-style: italic;
+  color: chocolate;
+}
+.main span {
+	color: royalblue;
+	text-decoration: underline;
+}
+.footer {
+	font-family: 'Ubuntu', sans-serif;
+} 
+.phone {
+  word-spacing: nowrap;
+  color: red;
+  font-size: 20px;
+  text-decoration: line-through;
+}
